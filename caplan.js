@@ -21,7 +21,8 @@ function printError(lineNumber, error){
 }
 
 function printFail(error) {
-	document.writeln("Fail: " + error);
+	alert("Fail: " + error);
+	throw new Error("Code fail");
 }
 
 function getFreeAddress() {
