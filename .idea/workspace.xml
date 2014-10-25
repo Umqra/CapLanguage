@@ -27,17 +27,24 @@
       <file leaf-file-name="caplan.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/caplan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54545456" vertical-offset="3156" max-vertical-offset="3750">
-              <caret line="349" column="38" selection-start-line="349" selection-start-column="38" selection-end-line="349" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.5707071" vertical-offset="126" max-vertical-offset="840">
+              <caret line="173" column="2" selection-start-line="173" selection-start-column="2" selection-end-line="173" selection-end-column="2" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
                 <element signature="n#!!block;n#printError#0" expanded="false" />
+                <element signature="n#!!block;n#printFail#0" expanded="false" />
+                <element signature="n#!!block;n#getFreeAddress#0" expanded="false" />
+                <element signature="n#!!block;n#getVariableAddress#0" expanded="false" />
+                <element signature="n#!!block;n#ReadClass#0" expanded="false" />
                 <element signature="n#!!block;n#Validator#0" expanded="false" />
                 <element signature="n#!!block;n#Preprocess#0" expanded="false" />
                 <element signature="e#4232#4650#0" expanded="false" />
+                <element signature="n#!!block;n#Process#0" expanded="false" />
                 <element signature="e#7395#7685#0" expanded="false" />
+                <element signature="n#!!block;n#getTokens#0" expanded="false" />
                 <element signature="n#!!block;n#getCommandNumber#0" expanded="false" />
                 <element signature="n#!!block;n#preprocessLine#0" expanded="false" />
+                <element signature="n#!!block;n#preprocessCode#0" expanded="false" />
                 <element signature="n#!!block;n#processCode#0" expanded="false" />
               </folding>
             </state>
@@ -47,8 +54,8 @@
       <file leaf-file-name="browserIDE.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/browserIDE.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="450">
-              <caret line="113" column="6" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="450">
+              <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -270,7 +277,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="57" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -282,12 +289,19 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="n#!!block;n#printError#0" expanded="false" />
+            <element signature="n#!!block;n#printFail#0" expanded="false" />
+            <element signature="n#!!block;n#getFreeAddress#0" expanded="false" />
+            <element signature="n#!!block;n#getVariableAddress#0" expanded="false" />
+            <element signature="n#!!block;n#ReadClass#0" expanded="false" />
             <element signature="n#!!block;n#Validator#0" expanded="false" />
             <element signature="n#!!block;n#Preprocess#0" expanded="false" />
             <element signature="e#4232#4650#0" expanded="false" />
+            <element signature="n#!!block;n#Process#0" expanded="false" />
             <element signature="e#7395#7685#0" expanded="false" />
+            <element signature="n#!!block;n#getTokens#0" expanded="false" />
             <element signature="n#!!block;n#getCommandNumber#0" expanded="false" />
             <element signature="n#!!block;n#preprocessLine#0" expanded="false" />
+            <element signature="n#!!block;n#preprocessCode#0" expanded="false" />
             <element signature="n#!!block;n#processCode#0" expanded="false" />
           </folding>
         </state>
@@ -320,12 +334,19 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="n#!!block;n#printError#0" expanded="false" />
+            <element signature="n#!!block;n#printFail#0" expanded="false" />
+            <element signature="n#!!block;n#getFreeAddress#0" expanded="false" />
+            <element signature="n#!!block;n#getVariableAddress#0" expanded="false" />
+            <element signature="n#!!block;n#ReadClass#0" expanded="false" />
             <element signature="n#!!block;n#Validator#0" expanded="false" />
             <element signature="n#!!block;n#Preprocess#0" expanded="false" />
             <element signature="e#4232#4650#0" expanded="false" />
+            <element signature="n#!!block;n#Process#0" expanded="false" />
             <element signature="e#7395#7685#0" expanded="false" />
+            <element signature="n#!!block;n#getTokens#0" expanded="false" />
             <element signature="n#!!block;n#getCommandNumber#0" expanded="false" />
             <element signature="n#!!block;n#preprocessLine#0" expanded="false" />
+            <element signature="n#!!block;n#preprocessCode#0" expanded="false" />
             <element signature="n#!!block;n#processCode#0" expanded="false" />
           </folding>
         </state>
@@ -358,12 +379,19 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="n#!!block;n#printError#0" expanded="false" />
+            <element signature="n#!!block;n#printFail#0" expanded="false" />
+            <element signature="n#!!block;n#getFreeAddress#0" expanded="false" />
+            <element signature="n#!!block;n#getVariableAddress#0" expanded="false" />
+            <element signature="n#!!block;n#ReadClass#0" expanded="false" />
             <element signature="n#!!block;n#Validator#0" expanded="false" />
             <element signature="n#!!block;n#Preprocess#0" expanded="false" />
             <element signature="e#4232#4650#0" expanded="false" />
+            <element signature="n#!!block;n#Process#0" expanded="false" />
             <element signature="e#7395#7685#0" expanded="false" />
+            <element signature="n#!!block;n#getTokens#0" expanded="false" />
             <element signature="n#!!block;n#getCommandNumber#0" expanded="false" />
             <element signature="n#!!block;n#preprocessLine#0" expanded="false" />
+            <element signature="n#!!block;n#preprocessCode#0" expanded="false" />
             <element signature="n#!!block;n#processCode#0" expanded="false" />
           </folding>
         </state>
@@ -376,12 +404,19 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="n#!!block;n#printError#0" expanded="false" />
+            <element signature="n#!!block;n#printFail#0" expanded="false" />
+            <element signature="n#!!block;n#getFreeAddress#0" expanded="false" />
+            <element signature="n#!!block;n#getVariableAddress#0" expanded="false" />
+            <element signature="n#!!block;n#ReadClass#0" expanded="false" />
             <element signature="n#!!block;n#Validator#0" expanded="false" />
             <element signature="n#!!block;n#Preprocess#0" expanded="false" />
             <element signature="e#4232#4650#0" expanded="false" />
+            <element signature="n#!!block;n#Process#0" expanded="false" />
             <element signature="e#7395#7685#0" expanded="false" />
+            <element signature="n#!!block;n#getTokens#0" expanded="false" />
             <element signature="n#!!block;n#getCommandNumber#0" expanded="false" />
             <element signature="n#!!block;n#preprocessLine#0" expanded="false" />
+            <element signature="n#!!block;n#preprocessCode#0" expanded="false" />
             <element signature="n#!!block;n#processCode#0" expanded="false" />
           </folding>
         </state>
@@ -391,16 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47532895" vertical-offset="0" max-vertical-offset="6936">
           <caret line="17" column="57" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browserIDE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="450">
-          <caret line="113" column="6" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -414,19 +439,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/browserIDE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="450">
+          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/caplan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54545456" vertical-offset="3156" max-vertical-offset="3750">
-          <caret line="349" column="38" selection-start-line="349" selection-start-column="38" selection-end-line="349" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.5707071" vertical-offset="126" max-vertical-offset="840">
+          <caret line="173" column="2" selection-start-line="173" selection-start-column="2" selection-end-line="173" selection-end-column="2" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
             <element signature="n#!!block;n#printError#0" expanded="false" />
+            <element signature="n#!!block;n#printFail#0" expanded="false" />
+            <element signature="n#!!block;n#getFreeAddress#0" expanded="false" />
+            <element signature="n#!!block;n#getVariableAddress#0" expanded="false" />
+            <element signature="n#!!block;n#ReadClass#0" expanded="false" />
             <element signature="n#!!block;n#Validator#0" expanded="false" />
             <element signature="n#!!block;n#Preprocess#0" expanded="false" />
             <element signature="e#4232#4650#0" expanded="false" />
+            <element signature="n#!!block;n#Process#0" expanded="false" />
             <element signature="e#7395#7685#0" expanded="false" />
+            <element signature="n#!!block;n#getTokens#0" expanded="false" />
             <element signature="n#!!block;n#getCommandNumber#0" expanded="false" />
             <element signature="n#!!block;n#preprocessLine#0" expanded="false" />
+            <element signature="n#!!block;n#preprocessCode#0" expanded="false" />
             <element signature="n#!!block;n#processCode#0" expanded="false" />
           </folding>
         </state>
