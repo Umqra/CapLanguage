@@ -1,0 +1,4 @@
+red a
+red b
+add a b
+wrt a

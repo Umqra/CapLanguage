@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="editor.js"></script>
+    <script type="text/javascript" src="caplan.js"></script>
+</head>
+<body>
+
+<style>
+    .inputData
+    {
+        position: fixed;
+        left: 45%;
+        width: 20%;
+        height: 15%;
+    }
+    .outputData
+    {
+        top: 30%;
+        position: fixed;
+        left: 45%;
+        width: 20%;
+        height: 15%;
+    }
+    .dataText
+    {
+        width: 100%;
+        height: 100%;
+    }
+    #run
+    {
+        position: fixed;
+        left: 45%;
+        top: 23%
+    }
+    #errors
+    {
+        resize: none;
+        font-family: monospace;
+        top: 70%;
+        position: fixed;
+        color: firebrick;
+        width: 40%;
+        height: 20%;
+        border-color: beige;
+        border-style: groove;
+        border-width: 2px;
+        padding: 1%;
+    }
+    #codeArea {
+        opacity: 0.05;
+        position: absolute;
+        width: 40%;
+        height: 60%;
+        font-family: monospace;
+        border-color: beige;
+        border-style: groove;
+        border-width: 2px;
+        padding: 1%;
+        font-weight: 400;
+        z-index: 1;
+    }
+    #viewArea
+    {
+        overflow-y: visible;
+        position: absolute;
+        width: 40%;
+        height: 60%;
+        font-family: monospace;
+        border-color: beige;
+        border-style: groove;
+        border-width: 2px;
+        padding: 1%;
+        z-index: 0;
+        font-weight: 400;
+    }
+    .keywords
+    {
+        font-weight: 500;
+        display: inline-block;
+        color: coral;
+    }
+    .variables
+    {
+        font-weight: 400;
+        display: inline-block;
+        color: mediumslateblue;
+    }
+    .numbers
+    {
+        font-weight: 300;
+        display: inline-block;
+        color: gray;
+    }
+    div
+    {
+        display: inline-block;
+    }
+
+</style>
+
+<textarea spellcheck="false" name="codeArea" id="codeArea" oninput="changeText(event)"></textarea>
+<div contenteditable="true" id="viewArea" name="viewArea" spellcheck="false"></div>
+<textarea name="errors" id="errors" disabled></textarea>
+<div class="inputData">
+    Input data:<br>
+    <textarea class="dataText" name="input"></textarea>
+</div>
+<input type="submit" id="run" name="run" value="Run" onclick="run(event)">
+<div class="outputData">
+    Output data:<br>
+    <textarea class="dataText" name="output"></textarea>
+</div>
+</body>
+</html>
