@@ -4,7 +4,7 @@ CapLanguage
 Caplan - simple programming language with pleasent surprises.
 ===========
 
-In Caplan language you can operate with integer numbers from the range [-10^7; 10^7]. <br>
+In Caplan language you can operate with integer numbers from the range [-10<sup>7</sup>; 10<sup>7</sup>]. <br>
 
 List of commands:
 set [variable] [variable|constant] #set in first varibale second value
