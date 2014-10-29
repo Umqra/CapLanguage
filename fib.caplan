@@ -1,0 +1,13 @@
+red n
+set a 1
+set b 1
+lbl loop
+jiz n end
+set c a
+set a b
+add c b
+set b c
+sbt n 1
+jmp loop
+lbl end
+wrt a

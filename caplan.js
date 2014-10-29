@@ -21,8 +21,7 @@ function printError(lineNumber, error){
 }
 
 function printFail(error) {
-	alert("Fail: " + error);
-	throw new Error("Code fail");
+	document.writeln("Fail: " + error);
 }
 
 function getFreeAddress() {
@@ -129,12 +128,6 @@ function Preprocess() {
 			return true;
 		return "bad second argument value"
 	}
-	this.preprocessValue = function(val1, line)
-	{
-		if (Validator.validateNumber(val1) || Validator.validateVariable(val1))
-			return true;
-		return "bad argument - must be variable or number"
-	}
 	this.preprocessOneLabel = function (label, line)
 	{
 		if (Validator.validateLabel(label) != true)
@@ -174,7 +167,7 @@ var CommandPreprocess = [
 	Preprocess.preprocessVariableLabel,
 	Preprocess.preprocessVariableLabel,
 	Preprocess.preprocessVariable,
-	Preprocess.preprocessValue,
+	Preprocess.preprocessVariable,
 	Preprocess.preprocessLabel,
 	Preprocess.preprocessSurprise
 ];
@@ -256,15 +249,8 @@ function Process() {
 		Memory[addr1] = Read.readInt();
 		return CURRENT_LINE;
 	}
-	this.processWrite = function(val1)
+	this.processWrite = function(var1)
 	{
-		if (Validator.validateNumber(val1))
-		{
-			var out = document.getElementsByName("output")[0].value;
-			out += val1 + "\n";
-			document.getElementsByName("output")[0].value = out;
-			return CURRENT_LINE;
-		}
 		var addr1 = getVariableAddress(var1);
 		var out = document.getElementsByName("output")[0].value;
 		out += Memory[addr1] + "\n";

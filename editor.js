@@ -4,6 +4,7 @@
 
 var Keywords = ["set", "add", "sbt", "mlt", "jmp", "jiz", "jin", "jip", "red", "wrt", "lbl", "srp"];
 var OldCountLines = 1;
+var LoadedCode;
 
 function isLetter(ch)
 {
@@ -142,4 +143,21 @@ function run(e)
 		return;
 	}
 	processCode(lines, 0);
+}
+
+function loadCode(e)
+{
+	var file = e.target.files[0];
+	var reader = new FileReader();
+	reader.onload = function()
+	{
+		LoadedCode = this.result;
+	}
+	reader.readAsText(file);
+}
+
+function writeLoaded(e)
+{
+	document.getElementsByName("codeArea")[0].value = LoadedCode;
+	changeText(e);
 }

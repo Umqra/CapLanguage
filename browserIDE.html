@@ -23,6 +23,14 @@
         width: 20%;
         height: 15%;
     }
+    .loadData
+    {
+        top: 50%;
+        position: fixed;
+        left: 45%;
+        width: 20%;
+        height: 15%;
+    }
     .dataText
     {
         width: 100%;
@@ -111,6 +119,9 @@
 <div class="outputData">
     Output data:<br>
     <textarea class="dataText" name="output"></textarea>
+</div>
+<div class="loadData">
+<input type="file" name="loadingData" onchange="loadCode(event)"><input type="button" value="Load" onclick="writeLoaded(event)">
 </div>
 </body>
 </html>

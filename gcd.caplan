@@ -1,0 +1,16 @@
+red a
+red b
+
+lbl gcd
+jiz b end
+set delta a
+sbt delta b
+jin delta endloop
+set c a
+set a b
+set b c
+lbl endloop
+sbt b a
+jmp gcd
+lbl end
+wrt a
